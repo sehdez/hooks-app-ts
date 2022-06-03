@@ -1,0 +1,15 @@
+
+p{
+    margin: 0px;
+    cursor: pointer;
+    text-align: left;
+}
+.list-item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete {
+    text-decoration: line-through;
+}
