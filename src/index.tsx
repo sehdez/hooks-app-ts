@@ -15,6 +15,7 @@ import reportWebVitals from './reportWebVitals';
 // import { Padre } from './components/07-tarea-memo/Padre';
 // import { CallbackHook } from './components/06-memos/CallbackHook';
 import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp.js';
 
 
 import './index.scss'
@@ -24,7 +25,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <>
   {/* // <React.StrictMode> */}
-  <TodoApp />
+  <MainApp />
   {/* </React.StrictMode> */}
   </>
 );

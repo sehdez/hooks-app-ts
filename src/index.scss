@@ -1,6 +1,8 @@
-
+.color-white{
+    color: white;
+}
 body {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     background-color: #282c34;
     align-items: center;
@@ -13,6 +15,9 @@ body {
             margin: 2px;
         }
     }
+}
+.navbar{
+    margin:-20px -20px 20px -20px ;
 }
 .chat{
     cursor: pointer;
