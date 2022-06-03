@@ -7,7 +7,6 @@ export const TodoList = React.memo(({
     handleDelete, 
     handleToggle, 
     todos}: TodoListProps) => {
-        console.log('Me activé')
   return (
     <ul className='list-group '>
         {
